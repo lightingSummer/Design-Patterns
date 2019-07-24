@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b9963e-dac3-4255-8a86-6ce1fc135c18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/单例/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/单例/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/单例/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/FactoryImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/FactoryImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/ProductImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂/ProductImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ProductA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ProductA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ProductB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ProductB2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/简单工厂/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/简单工厂/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/简单工厂/ProductImpl1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/简单工厂/ProductImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/原型模式/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/原型模式/ConcretePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/原型模式/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/生成器模式/AbstractStringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/生成器模式/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/生成器模式/StringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/责任链/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/责任链/ConcreteHandler1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/责任链/ConcreteHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/责任链/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/责任链/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/责任链/RequestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPatterns/简单工厂/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPatterns/简单工厂/Client.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/工厂/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/责任链/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="253">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -53,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -69,7 +58,6 @@
         <option value="$PROJECT_DIR$/src/简单工厂/ProductImpl1.java" />
         <option value="$PROJECT_DIR$/src/简单工厂/ProductImpl2.java" />
         <option value="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" />
-        <option value="$PROJECT_DIR$/src/简单工厂/Client.java" />
         <option value="$PROJECT_DIR$/src/工厂/ProductImpl1.java" />
         <option value="$PROJECT_DIR$/src/工厂/Factory.java" />
         <option value="$PROJECT_DIR$/src/工厂/FactoryImpl2.java" />
@@ -84,6 +72,19 @@
         <option value="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryImpl2.java" />
         <option value="$PROJECT_DIR$/src/抽象工厂/Client.java" />
         <option value="$PROJECT_DIR$/src/工厂/Client.java" />
+        <option value="$PROJECT_DIR$/src/简单工厂/Client.java" />
+        <option value="$PROJECT_DIR$/src/生成器模式/StringBuilder.java" />
+        <option value="$PROJECT_DIR$/src/生成器模式/AbstractStringBuilder.java" />
+        <option value="$PROJECT_DIR$/src/生成器模式/Client.java" />
+        <option value="$PROJECT_DIR$/src/原型模式/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/原型模式/ConcretePrototype.java" />
+        <option value="$PROJECT_DIR$/src/原型模式/Client.java" />
+        <option value="$PROJECT_DIR$/src/责任链/Handle.java" />
+        <option value="$PROJECT_DIR$/src/责任链/Request.java" />
+        <option value="$PROJECT_DIR$/src/责任链/RequestType.java" />
+        <option value="$PROJECT_DIR$/src/责任链/ConcreteHandler1.java" />
+        <option value="$PROJECT_DIR$/src/责任链/ConcreteHandler2.java" />
+        <option value="$PROJECT_DIR$/src/责任链/Client.java" />
       </list>
     </option>
   </component>
@@ -137,6 +138,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="简单工厂" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="责任链" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -146,10 +153,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563933363834" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563941627173" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="原型模式" />
       <recent name="抽象工厂" />
       <recent name="工厂" />
       <recent name="简单工厂" />
@@ -170,7 +178,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Client (3)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="生成器模式.Client" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="生成器模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="原型模式.Client" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="原型模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="责任链.Client" />
+      <module name="designPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="责任链.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="简单工厂.Client" />
       <module name="designPatterns" />
@@ -180,16 +227,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="designPatterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,12 +245,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Singleton1" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Singleton1" />
       </list>
@@ -230,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563843596084</updated>
       <workItem from="1563843601780" duration="4826000" />
-      <workItem from="1563931494860" duration="2177000" />
+      <workItem from="1563931494860" duration="6531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7003000" />
+    <option name="totallyTimeSpent" value="11357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -255,7 +297,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
@@ -330,20 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/简单工厂/SimpleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/简单工厂/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -475,10 +503,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/简单工厂/SimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/简单工厂/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/工厂/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="3334" column="20" lean-forward="true" selection-start-line="3334" selection-start-column="20" selection-end-line="3334" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/生成器模式/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/生成器模式/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24514">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/生成器模式/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/Prototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/ConcretePrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/ConcreteHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/ConcreteHandler1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/RequestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
