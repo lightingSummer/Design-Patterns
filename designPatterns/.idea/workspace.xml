@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b9963e-dac3-4255-8a86-6ce1fc135c18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/命令模式/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/CommandMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/Invoke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/命令模式/LightOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/策略模式/Behavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/策略模式/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/策略模式/EatBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/策略模式/FatMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/策略模式/SleepBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/责任链/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/责任链/Client.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,43 +20,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/命令模式/Invoke.java">
+        <entry file="file://$PROJECT_DIR$/src/策略模式/Behavior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="161">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/策略模式/SleepBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/命令模式/CommandMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/策略模式/FatMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="322">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/命令模式/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/策略模式/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+            <state relative-caret-position="230">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/策略模式/EatBehavior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -112,7 +124,6 @@
         <option value="$PROJECT_DIR$/src/责任链/RequestType.java" />
         <option value="$PROJECT_DIR$/src/责任链/ConcreteHandler1.java" />
         <option value="$PROJECT_DIR$/src/责任链/ConcreteHandler2.java" />
-        <option value="$PROJECT_DIR$/src/责任链/Client.java" />
         <option value="$PROJECT_DIR$/src/命令模式/Light.java" />
         <option value="$PROJECT_DIR$/src/命令模式/Command.java" />
         <option value="$PROJECT_DIR$/src/命令模式/LightOnCommand.java" />
@@ -121,6 +132,12 @@
         <option value="$PROJECT_DIR$/src/命令模式/Invoke.java" />
         <option value="$PROJECT_DIR$/src/命令模式/CommandMessage.java" />
         <option value="$PROJECT_DIR$/src/命令模式/Client.java" />
+        <option value="$PROJECT_DIR$/src/责任链/Client.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/Behavior.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/EatBehavior.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/SleepBehavior.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/FatMan.java" />
+        <option value="$PROJECT_DIR$/src/策略模式/Client.java" />
       </list>
     </option>
   </component>
@@ -154,37 +171,7 @@
               <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="单例" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="命令模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="工厂" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="抽象工厂" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="生成器模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="简单工厂" type="462c0819:PsiDirectoryNode" />
+              <item name="策略模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,15 +182,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563952763690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563953944940" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="策略模式" />
       <recent name="命令模式" />
       <recent name="原型模式" />
       <recent name="抽象工厂" />
       <recent name="工厂" />
-      <recent name="简单工厂" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\DesignPatterns\designPatterns\src\工厂" />
@@ -221,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
+  <component name="RunManager" selected="Application.Client (5)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="生成器模式.Client" />
       <module name="designPatterns" />
@@ -274,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="简单工厂.Client" />
+    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="策略模式.Client" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="简单工厂.*" />
+          <option name="PATTERN" value="策略模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,19 +275,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.Client (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (5)" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -315,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563843596084</updated>
       <workItem from="1563843601780" duration="4826000" />
-      <workItem from="1563931494860" duration="9279000" />
+      <workItem from="1563931494860" duration="10487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14105000" />
+    <option name="totallyTimeSpent" value="15313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -362,41 +349,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/单例/Singleton1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/单例/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/单例/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/简单工厂/ProductImpl1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -627,21 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/原型模式/ConcretePrototype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/原型模式/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -685,13 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/责任链/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -746,17 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/命令模式/Invoke.java">
+    <entry file="file://$PROJECT_DIR$/src/命令模式/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -775,10 +698,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/命令模式/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/命令模式/Invoke.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="29" column="81" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
+        <state relative-caret-position="188">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/责任链/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/ConcretePrototype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/EatBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/Behavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/SleepBehavior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/FatMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/策略模式/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
